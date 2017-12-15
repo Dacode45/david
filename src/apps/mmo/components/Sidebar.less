@@ -1,0 +1,26 @@
+@import "./Colors.less";
+
+.mmo-sidebar {
+    grid-area: ms;
+    background: @mmo-dark-blue;
+    .nav-tabs {
+        font-size: 10px;
+        a {
+            border-radius: 0px;
+        }
+    }
+    .tab-content, .tab-pane {
+        height: 91%;
+    }
+}
+
+.mmo-sidebar > div {
+    height: 100%;
+}
+
+.mmo-sidebar-content {
+    background: @mmo-slightly-darker-blue;
+    height: 100%;
+    margin: 5px;
+    padding: 2px;
+}

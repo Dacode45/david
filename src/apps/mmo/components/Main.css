@@ -1,0 +1,85 @@
+.mmo-display {
+  grid-area: md;
+  background: black;
+  overflow-y: scroll;
+}
+.mmo-display::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+.mmo-display::-webkit-scrollbar {
+  width: 6px;
+  background-color: #C5C6C7;
+}
+.mmo-display::-webkit-scrollbar-thumb {
+  background-color: #66FCF1;
+}
+.mmo-input {
+  grid-area: mi;
+  background: #0B0C10;
+}
+.mmo-input input {
+  border: 1px solid #66FCF1;
+  border-radius: 0px;
+  background: #0B0C10;
+  color: #66FCF1;
+  width: 100%;
+}
+.mmo-input .form-group {
+  width: 100%;
+}
+.mmo-sidebar {
+  grid-area: ms;
+  background: #1F2833;
+}
+.mmo-sidebar .nav-tabs {
+  font-size: 10px;
+}
+.mmo-sidebar .nav-tabs a {
+  border-radius: 0px;
+}
+.mmo-sidebar .tab-content,
+.mmo-sidebar .tab-pane {
+  height: 91%;
+}
+.mmo-sidebar > div {
+  height: 100%;
+}
+.mmo-sidebar-content {
+  background: #161e28;
+  height: 100%;
+  margin: 5px;
+  padding: 2px;
+}
+.mmo-main {
+  background: #1F2833;
+  width: 100%;
+  height: 100%;
+  min-width: 600px;
+  min-height: 300px;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 1fr repeat(6, minmax(auto, 10em)) 1fr;
+  grid-template-rows: minmax(1em, auto) 3fr auto minmax(1em, auto);
+  grid-template-areas: "mh mh mh mh mh mh mh mh mh" "mfl md md md md ms ms ms mfr" "mfl md md md md ms ms ms mfr" "mfl md md md md ms ms ms mfr" "mfl mi mi mi mi ms ms ms mfr" "mf mf mf mf mf mf mf mf mf";
+  text-align: left;
+}
+.mmo-header {
+  grid-area: mh;
+  background: #0B0C10;
+}
+.mmo-filler-left {
+  grid-area: mfl;
+  background: url(http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/abstract-cloudy-sky/abstract-cloudy-sky-000399-rich-ultramarine-blue.jpg);
+}
+.mmo-filler-right {
+  grid-area: mfr;
+  background: url(http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/abstract-cloudy-sky/abstract-cloudy-sky-000399-rich-ultramarine-blue.jpg);
+}
+.mmo-input .form-group {
+  margin-bottom: 0px;
+}
+.mmo-footer {
+  grid-area: mf;
+  background: #0B0C10;
+}

@@ -1,0 +1,16 @@
+.mmo-display {
+  grid-area: md;
+  background: black;
+  overflow-y: scroll;
+}
+.mmo-display::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+.mmo-display::-webkit-scrollbar {
+  width: 6px;
+  background-color: #C5C6C7;
+}
+.mmo-display::-webkit-scrollbar-thumb {
+  background-color: #66FCF1;
+}

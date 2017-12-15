@@ -1,0 +1,23 @@
+.mmo-sidebar {
+  grid-area: ms;
+  background: #1F2833;
+}
+.mmo-sidebar .nav-tabs {
+  font-size: 10px;
+}
+.mmo-sidebar .nav-tabs a {
+  border-radius: 0px;
+}
+.mmo-sidebar .tab-content,
+.mmo-sidebar .tab-pane {
+  height: 91%;
+}
+.mmo-sidebar > div {
+  height: 100%;
+}
+.mmo-sidebar-content {
+  background: #161e28;
+  height: 100%;
+  margin: 5px;
+  padding: 2px;
+}
