@@ -7364,10 +7364,6 @@ react-docgen@^3.0.0-beta8:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-elm-components@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-elm-components/-/react-elm-components-1.0.1.tgz#19c7766b5c5ff4412867acc22dcf9f1d9eae9e3d"
-
 react-error-overlay@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-2.0.2.tgz#967b091962b17f5aeb4a60b1311b1736e1b6533d"
